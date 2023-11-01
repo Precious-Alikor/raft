@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+* {
+  font-family: "SF Pro Display";
+}
+.gray01 {
+  background-color: #98989838;
+}
+.gray02 {
+  color: #bdbdbd;
+}
+.gray03 {
+  border-top: 1px solid #dcdcdc2f;
+}
+.gray04{
+    border-bottom: 1px solid #3D3D3D;
+}
+.green01 {
+  background-color: #48d64c;
+}
+.green02 {
+  background-color: #2b892e;
+}
+.text-green {
+  color: #48d64c;
+}
+.black01 {
+  background-color: #131313;
+}
+.black02 {
+  background-color: #202020;
+}
+.hero {
+  background-image: url(../img/Grid.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content-bg {
+  background-image: url(../img/grid-cover.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content-cover {
+  background-image: linear-gradient(
+    rgba(19, 19, 19, 0),
+    rgba(19, 19, 19, 0.99)
+  );
+}
