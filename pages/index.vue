@@ -305,56 +305,56 @@
             </div>
         </div>
 
-        <div class="green01 text-black p-12">
+        <div class="green01 text-black pt-12 pb-2 lg:p-12">
             <p class="text-[2.2rem] lg:text-[3.5rem] text-center leading-tight">Join over 3 million <br> members</p>
-            <div class="flex my-16 ">
-                <div class="border-l-2 border-black px-6 flex flex-col justify-between">
-                    <p class="text-[1.5rem]">RAFT has transformed my approach to finance. Their smart investing options
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 my-16">
+                <div
+                    class="testimonial-item overflow-hidden lg:border-l-2 border-black px-4 lg:px-6 flex flex-col justify-between my-4 lg:my-0">
+                    <p class="lg:text-[1.5rem]">RAFT has transformed my approach to finance. Their smart investing options
                         have helped me
                         grow my
                         wealth, and their user-friendly platform makes managing my money a breeze. I've never
                         felt more
                         confident about my financial future.
                     </p>
-                    <div class="my-3 flex justify-between items-center">
+                    <div class="flex justify-between my-8">
                         <div>
-                            <p class="font-semibold">Robert Fox</p>
-                            <p class="text-xs">Happy RAFT User</p>
+                            <h1 class="text-xl font-bold">Robert Fox</h1>
+                            <p>Happy Raft User</p>
                         </div>
-                        <img src="../assets/img/user_1.svg" alt="user_1" class="h-14">
+                        <img src="../assets/img/user_1.svg" alt="user_1.svg" class="w-16">
                     </div>
                 </div>
-                <div class="border-l-2 border-black px-6 flex flex-col justify-between">
-                    <p class="text-[1.5rem]">
-                        I can't express how grateful I am to RAFT. Their wealth management services have been a
-                        game-changer
-                        for my family's financial security. The expert guidance and personalized strategies have
-                        given us
-                        peace of mind, knowing that our future is in capable hands.
+                <div
+                    class="testimonial-item overflow-hidden lg:border-l-2 border-black px-4 lg:px-6 flex flex-col justify-between my-4 lg:my-0">
+                    <p class="lg:text-[1.5rem]">I can't express how grateful I am to RAFT. Their wealth management services
+                        have been a game-changer for my family's financial security. The expert guidance and personalized
+                        strategies have given us peace of mind, knowing that our future is in capable hands.
                     </p>
-                    <div class="my-3 flex justify-between items-center">
+                    <div class="flex justify-between my-8">
                         <div>
-                            <p class="font-semibold">Cameron Williamson</p>
-                            <p class="text-xs">Happy RAFT User</p>
+                            <h1 class="text-xl font-bold">Cameron Williamson</h1>
+                            <p>Happy Raft User</p>
                         </div>
-                        <img src="../assets/img/user_2.svg" alt="user_2" class="h-14">
+                        <img src="../assets/img/user_2.svg" alt="user_2.svg" class="w-16">
                     </div>
                 </div>
-                <div class="border-l-2 border-black px-6 flex flex-col justify-between">
-                    <p class="text-[1.5rem]">RAFT's financial planning services have been a lifeline for me. I always
-                        struggled with managing
-                        my
-                        money, but their team crafted a tailored plan that addressed my goals and concerns. It's been a
-                        game-changer in achieving my financial dreams</p>
-                    <div class="my-3 flex justify-between items-center">
+                <div
+                    class="testimonial-item overflow-hidden lg:border-l-2 border-black px-4 lg:px-6 flex flex-col justify-between my-4 lg:my-0">
+                    <p class="lg:text-[1.5rem]">RAFT's financial planning services have been a lifeline for me. I always
+                        struggled with managing my money, but their team crafted a tailored plan that addressed my goals and
+                        concerns. It's been a game-changer in achieving my financial dreams
+                    </p>
+                    <div class="flex justify-between my-8">
                         <div>
-                            <p class="font-semibold">Esther Howard</p>
-                            <p class="text-xs">Happy RAFT User</p>
+                            <h1 class="text-xl font-bold">Esther Howard</h1>
+                            <p>Happy Raft User</p>
                         </div>
-                        <img src="../assets/img/user_3.svg" alt="user_3" class="h-14">
+                        <img src="../assets/img/user_3.svg" alt="user_3.svg" class="w-16">
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div class="container mx-auto px-5 mt-10 lg:mt-20">
@@ -483,4 +483,5 @@ const faqs = ref([
 
 .invisible {
     display: none;
-}</style>
+}
+</style>
